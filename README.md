@@ -21,8 +21,6 @@ simple-calculator/
 
 ## 🤔 What Does Each File Do?
 
-## 🤔 What Does Each File Do?
-
 ### app.py - The Calculator
 - **4 functions**: add, subtract, multiply, divide
 - Asks you to choose which operation you want
@@ -168,9 +166,9 @@ If you've made it this far and everything is working, you've just:
 4. **Click "OK"**
 
 5. **Configure Branch Sources:**
-   - Click "Add Source" → "Git"
-   - **Project Repository:** `/home/[your-username]/my-calculator` (full path to your project)
-   - **Credentials:** None (for local repository)
+   - Click "Add Source" → "Github"
+   - **Project Repository:** `(https://github.com/hkm7/calculator-application)`
+   - **Credentials:** None 
 
 6. **Configure Build Configuration:**
    - **Mode:** by Jenkinsfile
