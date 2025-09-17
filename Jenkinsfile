@@ -8,7 +8,6 @@ pipeline {
                 echo "Setting up Python environment and installing dependencies"
                 sh '''
                     python3 --version
-                    pip3 install --upgrade pip
                     pip3 install -r requirements.txt --break-system-packages
                 '''
             }
