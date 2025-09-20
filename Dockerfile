@@ -9,6 +9,4 @@ WORKDIR /app
 COPY . .
 USER root
 
-CMD ["python3", "app.py"]
-
 
